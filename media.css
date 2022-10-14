@@ -1,0 +1,263 @@
+@media (max-width:1440px){
+    .intro__item4{
+        right: 0%;
+        top: 80%;
+    }
+
+    .quando__items{
+        flex-wrap: nowrap;
+    }
+
+    .conosco{
+        padding: 60px 0;
+    }
+
+    .footer__copy{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+
+    .quando__items{
+        flex-wrap: wrap;
+    }
+
+    .quando__item{
+        margin: 100px 10px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .produto__inner{
+        margin: 0;
+        gap: 50px;
+    }
+
+    .contratacao__inner{
+        gap: 50px;
+    }
+
+    .obtenha__tittle{
+        display: block;
+    }
+
+    .conoso__Inner{
+        margin: 0 auto;
+    }
+
+    .intro__rigth__img{
+        max-width: 450px;
+    }
+
+    .intro__item2{
+        top: 83%;
+    }
+
+    .produto__left__img,
+    .con__rigth__img{
+        width: 400px;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .conoso__Inner{
+        flex-direction: column;
+    }
+
+    label[for=email]{
+        text-align: center;
+    }
+
+}   
+
+@media (max-width:768px){
+    .container{
+        max-width: none;
+    }
+
+    .intro__inner{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .produto__inner{
+        flex-direction: column;
+    }
+
+    .produto__tittle{
+        margin: 0 auto;
+    }
+
+    .contratacao__inner{
+        flex-direction: column;
+    }
+
+    .contratacao__img{
+        margin: 0 auto;
+    }
+
+    .quando__items{
+        gap: 50px;
+    }
+
+    .quando__item{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:425px){
+    .container{
+        max-width: none;
+    }
+
+    .intro__rigth__img{
+        max-width: 380px;
+    }
+
+    .intro__item3,
+    .intro__item4{
+        max-width: 50px;
+    }
+
+    .intro{
+        margin: 100px 0;
+    }
+
+    .produto__left__img{
+        max-width: 285px;
+    }
+
+    .integ__img,
+    .cont__img{
+        max-width: 300px;
+    }
+
+    .con__rigth__img{
+        max-width: 300px;
+    }
+
+    .intro__item4{
+        display: none;
+    }
+
+    .intro__tittle h1{
+        line-height: 110%;
+        font-size: 33px;
+    }
+
+    .intro__item3{
+        top: 13%;
+    }
+
+    .intro__tittle{
+        margin-right: 0;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 23px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    h5, h6{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .integridade__items{
+        justify-content: center;
+    }
+
+    .btn{
+        width: 340px;
+    }
+
+    .footer__nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__copy,
+    .fot_l{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contratacao__items{
+        padding: 0;
+    }
+
+    .quando__item{
+        height: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    .conoso__Inner{
+        margin: 0 50%;
+    }
+    
+    .footer__nav ul{
+        padding: 0;
+        gap: 10px;
+    }
+}
+
+@media (max-width:378px){
+    .container{
+        max-width: none;
+    }
+
+    .intro__rigth__img{
+        max-width: 305px;
+    }
+
+    .intro__item2{
+        top: 75%;
+    }
+
+    .produto__left__img,
+    .con__rigth__img{
+        max-width: 240px;
+    }
+    
+}
